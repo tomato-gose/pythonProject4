@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework import viewsets,permissions
+from rest_framework import permissions, viewsets
 
 from .models import Task
 from .serializers import TaskSerializer
@@ -12,9 +12,9 @@ class TaskViewSet(viewsets.ModelViewSet):
 
 
 def index(request):
-    return render(request, 'main/index.html')
+    return render(request, "main/index.html")
 
 
 def about(request):
     tasks = Task.objects.all()
-    return render(request, 'main/about.html', {'tasks': tasks})
+    return render(request, "main/about.html", {"tasks": tasks})

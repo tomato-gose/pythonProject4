@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="a99ba79d-ee13-40b7-8f12-0dd259a468b3">
+    <data-source source="LOCAL" name="Django default" uuid="e8fae065-ea83-48d7-926e-ddb49742999b">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/industrial_safety_project/industrial_safety_project/settings.py</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/industrial_safety_project/db.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>

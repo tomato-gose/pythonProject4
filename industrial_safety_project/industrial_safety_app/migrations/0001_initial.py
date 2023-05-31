@@ -4,25 +4,29 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Task',
+            name="Task",
             fields=[
-                ('id', models.AutoField(primary_key=True, serialize=False)),
-                ('temperature', models.IntegerField(verbose_name='temperature')),
-                ('pressure', models.IntegerField(verbose_name='pressure')),
-                ('mass', models.IntegerField(verbose_name='mass')),
-                ('voltage', models.IntegerField(verbose_name='voltage')),
-                ('resistance', models.IntegerField(verbose_name='resistance')),
-                ('temperature1', models.IntegerField(verbose_name='temperature1')),
-                ('pressure1', models.IntegerField(verbose_name='pressure1')),
-                ('datetime', models.DateTimeField(verbose_name='datetime')),
+                ("id", models.AutoField(primary_key=True, serialize=False)),
+                (
+                    "temperature",
+                    models.IntegerField(verbose_name="temperature"),
+                ),
+                ("pressure", models.IntegerField(verbose_name="pressure")),
+                ("mass", models.IntegerField(verbose_name="mass")),
+                ("voltage", models.IntegerField(verbose_name="voltage")),
+                ("resistance", models.IntegerField(verbose_name="resistance")),
+                (
+                    "temperature1",
+                    models.IntegerField(verbose_name="temperature1"),
+                ),
+                ("pressure1", models.IntegerField(verbose_name="pressure1")),
+                ("datetime", models.DateTimeField(verbose_name="datetime")),
             ],
         ),
     ]

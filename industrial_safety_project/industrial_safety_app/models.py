@@ -10,7 +10,7 @@ class Task(models.Model):
     resistance = models.IntegerField("resistance")
     temperature1 = models.IntegerField("temperature1")
     pressure1 = models.IntegerField("pressure1")
-    datetime = models.DateTimeField('datetime')
+    datetime = models.DateTimeField("datetime")
 
     def __str__(self):
         return self.id
